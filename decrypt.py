@@ -19,7 +19,7 @@ def decrypt_cipher(word, key):
 def main():
 	message = input("Please enter a message: ")
 	key = input("Please enter a key: ")
-	new_message = encrypt_cipher(str(message), int(key))
+	new_message = decrypt_cipher(str(message), int(key))
 	print(new_message)
 
 main()
